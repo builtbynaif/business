@@ -33,6 +33,7 @@
 
             .btn {
                 background-color: $mainOrange;
+                border: solid 1px $mainOrange;
             }
 
         }

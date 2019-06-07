@@ -901,6 +901,7 @@ li{
 
             .site-header--dark .btn {
                 background-color: #c48736;
+                border: solid 1px #c48736;
             }
     }
 
@@ -1682,7 +1683,7 @@ li{
             background-color: #333;
         }
 
-.values__inner--left .icon {
+.values__inner--left .icons {
             display: block;
             position: absolute;
             top: 50%;
@@ -2079,12 +2080,19 @@ li{
     }
 
 .categories--outer {
-        background: url('../../assets/images/SolidSheetSet.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        padding-bottom: 7%;
+        background-color: #c7ceac;
+    }
+
+@media (min-width: 530px){
+
+.categories--outer {
+            background: url('../../assets/images/SolidSheetSet.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding-bottom: 7%
+    }
     }
 
 .site-icons {
@@ -2102,7 +2110,7 @@ li{
             box-sizing: border-box;
 }
 
-.site-icons h5{
+.site-icons h3 {
         margin-left: 10%;
     }
 
@@ -2239,22 +2247,25 @@ li{
         flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
-    
-/*
-    & iframe{
-        max-width: 100%;
-        height: auto;
-    }
-*/
 }
 
 .footer__inner {
-        -ms-flex-preferred-size: 27%;
-            flex-basis: 27%;
+        -ms-flex-preferred-size: 20%;
+            flex-basis: 20%;
         min-width: 270px;
         padding: 5%;
     }
 
+.footer__inner:nth-child(3){
+            -ms-flex-preferred-size: 40%;
+                flex-basis: 40%;
+        }
+
 .footer__outer {
       background-color: #c7ceac;
-    } 
+    }
+
+.footer iframe{
+        max-width: 100%;
+        height: auto;
+    }

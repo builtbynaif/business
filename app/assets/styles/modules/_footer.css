@@ -9,19 +9,21 @@
     
 
     &__inner {
-        flex-basis: 27%;
+        flex-basis: 20%;
         min-width: 270px;
         padding: 5%;
     }
+    
+    &__inner:nth-child(3){
+            flex-basis: 40%;
+        }
 
     &__outer {
       background-color: $mainGreen;
     }
     
-/*
     & iframe{
         max-width: 100%;
         height: auto;
     }
-*/
 }
