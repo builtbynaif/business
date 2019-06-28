@@ -1,10 +1,10 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp. Instead edit gulp/templates/sprite */
 
 .icon{
-     background-image: url('../../assets/images/sprites/sprite-5f823f5c.svg');
+     background-image: url('../../assets/images/sprites/sprite-12d9a70d.svg');
 }
 .no-svg .icon{
-    background-image: url('../../assets/images/sprites/sprite-5f823f5c.png');
+    background-image: url('../../assets/images/sprites/sprite-12d9a70d.png');
 }
 
 .icon--check {
@@ -31,10 +31,16 @@
     background-position: 68.43601895734596% 0;
 }
 
+.icon--envelope {
+    width: 68px;
+    height: 52px;
+    background-position: 58.93877551020408% 41.63265306122449%;
+}
+
 .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 49.83262587569452% 40.31779912249496%;
+    background-position: 73.29951340718502% 40.31779912249496%;
 }
 
 .icon--fire {
@@ -52,7 +58,7 @@
 .icon--instagram {
     width: 44.01px;
     height: 44.01px;
-    background-position: 62.318301795605784% 40.31779912249496%;
+    background-position: 70.63459608163872% 65.03419107474603%;
 }
 
 .icon--mail {

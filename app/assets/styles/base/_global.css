@@ -1,9 +1,9 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
     color: #333;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -13,20 +13,42 @@ img{
     box-sizing: border-box;
 }
 
-a{
+a {
     color: $mainOrange;
     text-decoration: none;
 }
 
-p{
+p {
     font-size: 1.1rem;
     letter-spacing: 0.9px;
 }
 
-strong{
+strong {
     font-weight: 700;
 }
 
-li{
-     list-style-type: none;
+li {
+    list-style-type: none;
+}
+
+.watermark {
+
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @mixin at778 {
+        float: right;
+        justify-content: flex-end;
+        padding-right: 20px;
+
+    }
+
+    & img {
+        @mixin at778 {
+            margin-left: 5px;
+        }
+    }
 }

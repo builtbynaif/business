@@ -23,3 +23,11 @@
         }
     }
 }
+
+.section-title__icon{
+    display: inline-block;
+    background-size: 600%; 
+    width: 70px;
+    height: 70px;
+        
+}

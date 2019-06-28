@@ -7,13 +7,13 @@
 
 .values {
     flex-basis: 40%;
-    min-width: 300px;
+    min-width: 270px;
     margin: 2% auto;
 
     &__inner {
         display: block;
 
-        @mixin at530 {
+        @mixin at778 {
             display: flex;
             justify-content: space-around;
             align-items: flex-start;
@@ -77,19 +77,5 @@
             font-size: 1.65rem;
         }
     }
-
-    /*
-    .icon--large {
-        width: 77px;
-        height: 77px;
-        background-size: 1000%;
-        left: 48%;
-    }
-
-    .icon--small {
-        top: 62%;
-        left: 66%;
-    }
-*/
 
 }
