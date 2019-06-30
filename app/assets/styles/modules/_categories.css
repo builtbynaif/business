@@ -19,7 +19,7 @@
         background-color: $mainGreen;
 
         @mixin at530 {
-            background: url('../../assets/images/SolidSheetSet.jpg');
+            background: url('../../assets/images/solidsheetset1.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;

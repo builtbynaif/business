@@ -8,8 +8,8 @@
     @mixin at530 {
         font-size: 2.75rem;
     }
-    
-    &--extra-padding{
+
+    &--extra-padding {
         padding: 5% 0;
     }
 
@@ -28,15 +28,23 @@
     }
 
     &__less-t-margin {
-        @mixin at530{
-              margin-top: -10px;
+        @mixin at530 {
+            margin-top: -10px;
         }
     }
-    &__more-t-margin{
+
+    &__more-t-margin {
         padding-top: 30px;
     }
-    &__more-b-margin{
+
+    &__more-b-margin {
         margin-bottom: 20px;
+    }
+
+    &__para {
+        font-size: 1.5rem;
+        line-height: 1.75;
+        margin: -12px 0 10px 0;
     }
 }
 

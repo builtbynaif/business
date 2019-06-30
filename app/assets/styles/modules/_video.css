@@ -4,7 +4,7 @@
     padding: 5%;
 
     @mixin at530 {
-        background: url('../../assets/images/curtains.jpg') center center no-repeat;
+        background: url('../../assets/images/wool.jpg') center center no-repeat;
         background-size: cover;
         display: flex;
         justify-content: space-around;
@@ -21,7 +21,7 @@
         @mixin at530 {
             min-width: 400px;
             flex-basis: 22%;
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: rgba(255, 255, 255, 0.85);
             padding: 2%;
             border-radius: 5px;
             margin: 0 auto;
@@ -29,7 +29,7 @@
     }
 
     &--ul li {
-        padding-bottom: 2.5%;
+        padding-bottom: 0.15em;
     }
 
 }
